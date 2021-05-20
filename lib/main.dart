@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sinhalacrud/ListViewPackage/HorizontalScollingExample.dart';
 import 'package:sinhalacrud/ListViewPackage/ListView.dart';
 import 'package:sinhalacrud/ListViewPackage/MemorySaveListView.dart';
+import 'package:sinhalacrud/TextField/TextFieldClass.dart';
+import 'package:sinhalacrud/TextFormField/TextForm.dart';
 import 'package:sinhalacrud/screens/SecodScreen.dart';
 import 'package:sinhalacrud/views/ContainerExample.dart';
 import 'package:sinhalacrud/views/Navigation.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
       // Remove the debug lable.
       debugShowCheckedModeBanner: false,
 
-      home: MemorySaveListView(),
+      home: TextForm(),
 
     );
   }
